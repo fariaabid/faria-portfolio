@@ -1,0 +1,45 @@
+.navbar-brand{
+    font-size: 30px;
+    transition: 1.3s;
+}
+.navigation{
+    position: relative;
+    overflow: hidden;
+}
+.navbar-collapse{
+    
+}
+.navbar-nav {
+    z-index: 1;
+}
+.navbar-toggler-icon{
+    width: 52px;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 3px;
+}
+.navbar-brand:hover{
+    transform: scale(1.5);  
+}
+@media (max-width: 767px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}

@@ -1,0 +1,62 @@
+#header{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+}
+.feature-img{
+    height: 480px;
+    width: 480px;
+  }
+.header-row{
+    padding-top: 107px;
+}
+.title{
+    font-size: 55px;
+}
+.icon a i{
+    font-size: 35px;
+    color: #fff; 
+    /* background-color: rgb(235, 36, 76) */
+}
+.icon a i:hover{
+    transition: 1.3s;
+    transform: scale(1.4); 
+}
+.typical{
+    color: #4DC5AF;
+}
+canvas{
+    height: 100vh!important;
+}
+
+@media (max-width: 992px){  
+    #header{
+        height: 700px;
+        /* canvas: 700px; */
+    }
+    canvas{
+        height: 700px!important;
+    }
+    .title{
+        font-size: 41px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .title{
+        font-size: 38px;
+    }   
+}
+@media (max-width: 500px){
+    #header{
+        height: 770px;
+    }
+    canvas{
+        height: 770px!important;
+    }
+    .header-row{
+        padding-top: 110px;
+    }
+}
+
+

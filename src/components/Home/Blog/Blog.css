@@ -1,0 +1,38 @@
+.blog{
+    height: 410px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    overflow: hidden;
+    transition: .3s;
+}
+.blog-btn{
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%) repeat scroll 0% 0%;
+    box-shadow: rgba(255, 105, 135, 0.3) 0px 3px 5px 2px;
+}
+.blog:hover{
+    transform: translateY(-10px);
+}
+@media (max-width: 576px){  
+    .blog{
+        width: 380px;
+        margin: 0 auto;
+    }   
+}
+@media (max-width: 480px){  
+    .blog{
+        width: 330px;
+    }   
+}
+/* @media (max-width: 576px){  
+    .project-card{
+        width: 380px;
+        margin: 0 auto;
+    }   
+} */
+
+
+/* .card:hover{
+    transition: 1.3s;
+    transform: scale(1.1);
+} */

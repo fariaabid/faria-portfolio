@@ -1,0 +1,59 @@
+.link a button i{
+    font-size: 25px;
+}
+.project-img{
+    height: 180px;
+}
+.card-footer{
+    border: none;
+    background: none;
+}
+.project-card{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    overflow: hidden;
+    height: 480px;
+    transition: .3s;
+}
+.card-description{
+    letter-spacing: 0.1px;
+}
+.card-text{
+    word-spacing: normal;
+}
+
+.github-btn:hover{
+    transition: 1.3s;
+    transform: scale(1.2);  
+}
+.website-btn:hover{
+    transition: 1.3s;
+    transform: scale(1.2);  
+}
+.project-card:hover{
+    transform: translateY(10px);
+    /* transform: scale(1.1); */
+}
+
+@media (max-width: 992px){  
+    .project-card{
+        height: 515px;
+    }   
+}
+@media (max-width: 768px){  
+    .project-card{
+        height: 470px;
+    }   
+}
+@media (max-width: 576px){  
+    .project-card{
+        width: 380px;
+        margin: 0 auto;
+    }   
+}
+@media (max-width: 480px){  
+    .project-card{
+        width: 330px;
+    }   
+}
