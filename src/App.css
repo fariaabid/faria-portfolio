@@ -3,26 +3,26 @@
 }
 .website-btn{
   width: 100px;
-  background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(33, 150, 243) 30%, rgb(33, 203, 243) 90%) repeat scroll 0% 0%;
+  background:#4dc5af;
   box-shadow: rgba(33, 203, 243, 0.3) 0px 3px 5px 2px;
 }
 .github-btn{
   width: 100px;
-  background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%) repeat scroll 0% 0%;
+  background:#4dc5af;
   box-shadow: rgba(255, 105, 135, 0.3) 0px 3px 5px 2px;
 }
 
 .hireMe-btn{
   width: 100px;
-  background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(33, 150, 243) 30%, rgb(33, 203, 243) 90%) repeat scroll 0% 0%;
+  background:#4dc5af;
 }
 
 .download-btn{
   width: 200px;
-  background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%) repeat scroll 0% 0%;
+  background:#4dc5af;
 }
 
 .send-btn{
-  background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(33, 150, 243) 30%, rgb(33, 203, 243) 90%) repeat scroll 0% 0%;
+  background:#4dc5af;
   box-shadow: rgba(33, 203, 243, 0.3) 0px 3px 5px 2px;
 }

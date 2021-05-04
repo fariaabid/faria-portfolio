@@ -7,7 +7,7 @@
     transition: .3s;
 }
 .blog-btn{
-    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%) repeat scroll 0% 0%;
+    background:#4dc5af;
     box-shadow: rgba(255, 105, 135, 0.3) 0px 3px 5px 2px;
 }
 .blog:hover{
@@ -24,15 +24,3 @@
         width: 330px;
     }   
 }
-/* @media (max-width: 576px){  
-    .project-card{
-        width: 380px;
-        margin: 0 auto;
-    }   
-} */
-
-
-/* .card:hover{
-    transition: 1.3s;
-    transform: scale(1.1);
-} */
