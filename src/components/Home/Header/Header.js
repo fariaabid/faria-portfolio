@@ -4,15 +4,15 @@ import Typical from 'react-typical';
 import './Header.css';
 import cv from '../../../resource/CV/Resume-faria-abid.pdf';
 import Particle from '../../Particle/Particle';
+import faria from '../../../resource/image/hero1.png'
 
 const Header = () => {
     return (
         <div id="header">
-            <Particle></Particle>
             <Navigation></Navigation>
-            <div className="container text-white">
+            <div className="container ">
                 <div className="row header-row">
-                    <div className="col-md-10 col-lg-7">
+                    <div className="col-md-8 col-lg-7">
                         <h1 className="title font-weight-bold">FARIA ABID</h1>
                         <h4 className="pt-3">
                             <Typical
@@ -71,6 +71,9 @@ const Header = () => {
                                 <button type="button" class="btn  text-white download-btn">Download CV</button>
                             </a>
                         </div>
+                    </div>
+                    <div className="col-md-4">
+                        <img  className="image-fluid" style={{width:'480px',height:'400px'}} src={faria} alt=""/>
                     </div>
                 </div>
             </div>

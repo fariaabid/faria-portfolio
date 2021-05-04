@@ -4,7 +4,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div style={{ backgroundColor: '#F4F7FC' }}>
+        <div style={{ backgroundColor: '#fffaf0' }}>
             <div id="about" className="container py-5" style={{ overflowX: 'hidden' }}>
                 <h1 className="text-center text-uppercase" >About</h1>
                 <div className="row about-container d-flex align-items-center mt-5">

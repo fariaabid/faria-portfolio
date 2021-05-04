@@ -23,7 +23,7 @@ const Blog = () => {
         }
     ])
     return (
-        <div style={{ backgroundColor: '#F4F7FC' }}>
+        <div style={{ backgroundColor: '#fffaf0' }}>
             <div id="blog" className="container pt-lg-5 pt-5" style={{ overflowX: 'hidden' }}>
                 <h1 className="text-center text-uppercase" >Blog</h1>
                 <div className="row mt-5">

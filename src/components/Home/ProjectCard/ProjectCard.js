@@ -3,7 +3,7 @@ import './ProjectCard.css';
 
 const ProjectCard = ({ projectInfo  }) => {
     return (
-        <div className="col-lg-4 col-md-6 mb-lg-5 mb-sm-5 mb-5">
+        <div className="col-lg-4 col-md-6 mb-lg-5 mb-sm-5 mb-5 ">
             <div className="card project-card">
                 <img class="card-img-top project-img" src={projectInfo.image} alt="" />
                 <div className="card-body" >

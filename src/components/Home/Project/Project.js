@@ -57,7 +57,7 @@ const Project = () => {
     ])
     return (
 
-        <div style={{ backgroundColor: '#F4F7FC' }}>
+        <div style={{ backgroundColor: '#fffaf0'}}>
             <div id="project" className="container pt-5" style={{ overflowX: 'hidden' }}>
                 <h1 className="text-center text-uppercase" >Latest Project</h1>
                 <div className="row mt-5">

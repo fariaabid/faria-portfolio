@@ -8,7 +8,7 @@ const Navigation = () => {
         <nav id="stickyNabvar" class="navbar navbar-expand-md navbar-light">
             <div className="container navigation">
                 <Link to="/" class="navbar-brand ">
-                    <span className="text-white font-weight-bold">F</span>
+                    <span className="font-weight-bold">F</span>
                 </Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -16,19 +16,19 @@ const Navigation = () => {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-white mr-3 font-weight-bold" href="#header">Home</a>
+                            <a class="nav-link  mr-3 font-weight-bold" href="#header">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white mr-3 font-weight-bold" href="#about">About</a>
+                            <a class="nav-link  mr-3 font-weight-bold" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white mr-3 font-weight-bold" href="#project">Project</a>
+                            <a class="nav-link  mr-3 font-weight-bold" href="#project">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white mr-3 font-weight-bold" href="#blog">Blog</a>
+                            <a class="nav-link  mr-3 font-weight-bold" href="#blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white mr-3 font-weight-bold" href="#contact">Contact</a>
+                            <a class="nav-link  mr-3 font-weight-bold" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
