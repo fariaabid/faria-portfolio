@@ -3,7 +3,6 @@ import Navigation from '../../Navigation/Navigation';
 import Typical from 'react-typical';
 import './Header.css';
 import cv from '../../../resource/CV/faria-abid-resume.pdf';
-import Particle from '../../Particle/Particle';
 import faria from '../../../resource/image/hero1.png'
 
 const Header = () => {
