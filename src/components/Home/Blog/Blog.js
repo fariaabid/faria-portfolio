@@ -9,17 +9,17 @@ const Blog = () => {
         {
             img: blogPic1,
             blogTitle: 'Essential Concepts of JavaScript',
-            // blogLink: 'https://rezafset.medium.com/some-essential-concepts-of-javascript-90b69caca46',
+            blogLink: 'https://faria182550.medium.com/essential-concepts-of-javascript-b8153fe7ef2f',
         },
         {
             img: blogPic2,
-            blogTitle: 'React Core Concepts',
-            // blogLink: 'https://rezafset.medium.com/react-core-concepts-48444bb8904f',
+            blogTitle: 'Fundamental Concepts of React',
+            blogLink: 'https://faria182550.medium.com/fundamental-concepts-of-react-9465064b6147',
         },
         {
             img: blogPic3,
-            blogTitle: 'JavaScript Interview Question',
-            // blogLink: 'https://rezafset.medium.com/some-important-tricky-concepts-of-javascript-affb664fe7a0'
+            blogTitle: 'JavaScript Tricky Concepts',
+            blogLink: 'https://faria182550.medium.com/javascript-tricky-concept-e411f7a48ee5'
         }
     ])
     return (
@@ -38,7 +38,7 @@ const Blog = () => {
                                     <div className="card-footer">
                                         <a
                                             style={{ textDecoration: 'none' }}
-                                            href='www.medium.com'
+                                            href={blog.blogLink}
                                             target="_blank"
                                         >
                                             <button className="btn blog-btn btn-block">
